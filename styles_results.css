@@ -1,15 +1,3 @@
-/* Font: Helvetica
-Font size of the headings: 24px
-Font size of the main content: 14px
-Font size of the smaller links: 12px
-Vertical space between results: 40px
-Vertical space above and below the number of results: 30px
-Height of the "Search" button: ~40px
-Vertical space above and below the "Search" button: 10px
-Space to the right of the logo: 30px
-Space to the right of the search input: 20px
-Space the the left of the search results: 140px
-Width of the search results: 700px */
 
 * {
   font-family: Helvetica;
@@ -21,29 +9,52 @@ h2 {
 
 p.main-content {
   font-size: 14px;
+  color: #5b5b5b;
 }
 
 ul {
   font-size: 12px;
 }
 
+div.result-area {
+  margin-left: 140px;
+}
+
 div.result {
   margin-top: 30px;
   margin-bottom: 30px;
-  margin-left: 140px;
   width: 700px;
+}
+.result a {
+  color: #1a0dab;
+}
+
+#total-results {
+  color: grey;
 }
 
 button.search {
   height: 40px;
   margin-top: 10px;
   margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #4285f3;
+  border-color: #1a5fd0;
+  color: white;
+}
+
+hr {
+  color: #c4c4c4;
 }
 
 #logo {
-  width: 150px;
+  width: 125px;
   margin-right: 30px;
+  padding: 10px;
 }
 input.search {
   margin-right: 20px;
+  height: 30px;
+  width: 400px;
+  border-radius: 15px;
 }
