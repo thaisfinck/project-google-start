@@ -6,39 +6,50 @@
     <link href="images/favicon.ico" rel="icon">
   </head>
   <body>
-    <img src="images/google.png" alt="google">
-    <p></p>
-      <form>
-      <input type="text">
-      <button type="button">Search</button>
-      <br><small>37 results
-      <br>www.w3schools.com</small>
-      <h2><a href="https://www.w3schools.com/" target="_blank">JavaScript Tutorial - W3School</a></h2>
-        <p class="main-content" >Well organized and easy to understand Web building tutorials with lots of examples of how to use HTML, CSS, JavaScript, SQL, Python, Bootstrap, Java</p>
-        <ul>
-          <li><a href="#">JavaScript Introduction</a></li>
-          <li><a href="#">JS Functions</a></li>
-          <li><a href="#">JavaScript Examples</a></li>
-        </ul>
+    <table>
+      <thead>
+        <tr>
+          <th><img id="logo" src="images/google.png" alt="google"></th>
+          <th><input class="search" type="text">
+          <button class="search" type="button">Search</button></th>
+          </tr>
+      </thead>
+    </table>
+    <hr>
+      <br><small>37 results</small>
+      <div class="result">
+        <p><small>www.w3schools.com</small></p>
+        <h2><a href="https://www.w3schools.com/" target="_blank">JavaScript Tutorial - W3School</a></h2>
+          <p class="main-content" >Well organized and easy to understand Web building tutorials with lots of examples of how to use HTML, CSS, JavaScript, SQL, Python, Bootstrap, Java</p>
+          <ul>
+            <li><a href="#">JavaScript Introduction</a></li>
+            <li><a href="#">JS Functions</a></li>
+            <li><a href="#">JavaScript Examples</a></li>
+          </ul>
       </div>
-      <p><small>developer.mozilla.org</small></p>
-      <h2><a href="https://developer.mozilla.org/en-US/" target="_blank">JavaScript | MDN</a></h2>
-      <p class="main-content" >JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions.
-      While it is most well-known as the scripting language for Web page CouchDB and Adobe Acrobat.</p>
-      <ul>
-        <li><a href="#">JavaScript Operator</a></li>
-        <li><a href="#">JavaScript Code</a></li>
-        <li><a href="#">JavaScript Meaning</a></li>
-      </ul>
+
+        <div class="result">
+          <p><small>developer.mozilla.org</small></p>
+          <h2><a href="https://developer.mozilla.org/en-US/" target="_blank">JavaScript | MDN</a></h2>
+          <p class="main-content" >JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions.
+          While it is most well-known as the scripting language for Web page CouchDB and Adobe Acrobat.</p>
+          <ul>
+            <li><a href="#">JavaScript Operator</a></li>
+            <li><a href="#">JavaScript Code</a></li>
+            <li><a href="#">JavaScript Meaning</a></li>
+          </ul>
+        </div>
+
+        <div class="result">
+          <p><small>en.wikipedia.org</small></p>
+          <h2><a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank"></a></h2>
+          <p class="main-content" >JavaScript often abbreviated as JS, is a programming language that conforms to the ECMAScript specifications.
+          JavaScript is high-level, often just-in-time.</p>
+          <ul>
+            <li><a href="#">JavaScript Online</a></li>
+            <li><a href="#">JavaScript Definition</a></li>
+          </ul>
       </div>
-      <p><small>en.wikipedia.org</small></p>
-      <h2><a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank"></a></h2>
-      <p class="main-content" >JavaScript often abbreviated as JS, is a programming language that conforms to the ECMAScript specifications.
-      JavaScript is high-level, often just-in-time.</p>
-      <ul>
-        <li><a href="#">JavaScript Online</a></li>
-        <li><a href="#">JavaScript Definition</a></li>
-      </ul>
-      <div class="main-content">
+
   </body>
 </html>
