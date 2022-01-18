@@ -1,0 +1,28 @@
+/* Font: Helvetica
+Font size of the headings: 24px
+Font size of the main content: 14px
+Font size of the smaller links: 12px
+Vertical space between results: 40px
+Vertical space above and below the number of results: 30px
+Height of the "Search" button: ~40px
+Vertical space above and below the "Search" button: 10px
+Space to the right of the logo: 30px
+Space to the right of the search input: 20px
+Space the the left of the search results: 140px
+Width of the search results: 700px */
+
+* {
+  font-family: Helvetica;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+p.main-content {
+  font-size: 14px;
+}
+
+ul {
+  font-size: 12px;
+}
