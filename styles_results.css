@@ -26,3 +26,24 @@ p.main-content {
 ul {
   font-size: 12px;
 }
+
+div.result {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 140px;
+  width: 700px;
+}
+
+button.search {
+  height: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#logo {
+  width: 150px;
+  margin-right: 30px;
+}
+input.search {
+  margin-right: 20px;
+}
