@@ -7,9 +7,13 @@ h2 {
   font-size: 24px;
 }
 
-p.main-content {
+div.main-content {
   font-size: 14px;
   color: #5b5b5b;
+}
+
+.main-content td {
+  padding-right: 10px;
 }
 
 ul {
@@ -35,6 +39,7 @@ div.result {
 
 button.search {
   height: 40px;
+  width: 100px;
   margin-top: 10px;
   margin-bottom: 10px;
   border-radius: 5px;
